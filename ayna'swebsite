@@ -1,1 +1,246 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll//DTD/xhtmll-transitional.dtd">
 
+<html xmlnx="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<title>Ayna's Website</title>
+
+
+<style>
+
+@charset "utf-B";
+
+body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #000;
+}
+
+#divWrapper {
+
+	width: 700px;
+	margin: 20px auto;
+
+}
+
+#divHeader {
+
+	width: 700px;
+	height: 150px;
+	background: url(http://images.freeimages.com/images/premium/previews/2933/29339442-background-black-and-white-polygon.jpg) ;
+	text-align: center;
+	
+}
+
+
+#divHeader img {
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+#divLine {
+	width: 700px;
+	background: #999;
+	height: 1px;
+	
+}
+
+#divLinks {
+	width: 700px;
+	background: #666;
+	
+}
+
+#divNav {
+
+	width: 384px;
+	background: #666;
+	height: 36px;
+	margin: 0 auto;
+	
+}
+
+#divNav ul {
+	list-style-type: none;
+
+}
+
+#divNav ul li {
+	float: left;
+
+}
+
+#divNav ul li a {
+	display: block;
+	height: 20px;
+	background: #000;
+	width: 80px;
+	font-size: 0.8em;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	margin: 7px;
+	font-weight: bold;
+	line-height: 20px;
+	
+
+	<!---Border Radius--->
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #000;
+
+
+	<!---Gradients--->
+	background:-moz-linear-gradient(top, #666, #333);
+	background:-webkit-gradient(linear, left top, left bottom, from(#666), to(#333)) ;
+}
+
+
+#divNav ul li a:hover {
+
+	background: #333;
+	background:-moz-linear-gradient(top, #000, #666);
+	background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#666)) ;
+}
+
+#divNav ul li a.current, #divNav ul li a.current:hover {
+
+	background: #333;
+	background:-moz-linear-gradient(top, #000, #666);
+	background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#666)) ;
+	color: pink;
+	cursor: default;
+}
+	
+#divAbout {
+
+	width: 700px;
+	background: #333;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#divContent {
+	width: 430px;
+	margin: 0 auto;
+	background: #222;
+	border: 1px solid black;
+	
+	<!---Gradients--->
+	background:-moz-linear-gradient(top, #666, #333 #222);
+	background:-webkit-gradient(linear, left top, left bottom, from(#666), to(#222), color-stop(0.5, #333)) ;
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	
+	<!---Shadows--->
+	box-shadow: 3px 3px 6px pink;
+	-moz-box-shadow: 3px 3px 6px pink;
+	-webkit-box-shadow: 3px 3px 6px pink;
+}
+
+
+#divContent img {
+	float: left;	
+	border: 1px solid black;
+	background: #333;
+	paddinng: 16px;
+	margin: 0.7em;
+	
+	<!---Gradients--->
+	background:-moz-linear-gradient(top, #222, white);
+	background:-webkit-gradient(linear, left top, left bottom, from(#222), to(white)) ;
+	
+	<!---Border Radius--->
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius:15px;
+	
+}
+
+#divContent h5 { 
+	color: pink;
+	padding-top: 0.8em;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+#divContent p {
+	font-size: 0.7em;
+	color: #999;
+	padding: 0.7em;
+	line-height: 1.4em;
+
+}
+
+#divFooter {
+	background: #222;
+	height: 10px;
+	width: 700px;
+	border-bottom: 1px solid pink;
+}
+
+
+</style>
+
+
+<link href="my-website.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+
+
+<body>
+
+<div>
+
+	<div id="divWrapper">
+		<div id="divHeader"><img src="http://www.mywebsite.com.au/mywebsite_logo.gif" width="405" height="68" /></div>
+		<div id="divLine"></div>
+		<div id="divLinks">
+		<div id="divNav">
+		
+				<ul>
+					<li><a href="index.html" class="current">About</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			
+			</div>
+		</div>
+		<div id="divLine"></div>
+		<div id="divAbout">
+		
+			<div id="divContent"><img src="http://www.freeiconspng.com/uploads/female-silhouette-head-face-icon--33.png" width="90" height="123" />
+			<h5>Your Name</h5>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+		</div>
+
+ 
+
+	</div>
+
+	<div id="divFooter"></div>	
+</div>
+
+</body>
+</html>

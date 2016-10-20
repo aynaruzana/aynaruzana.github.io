@@ -20,7 +20,7 @@
 
 * {
 
-	margin: 0 auto;
+	margin: 0;
 	
 
 }
@@ -29,6 +29,7 @@
 
 	border: 10px double hotpink;
 	background: pink;
+	margin-bottom: 30px;
 	
 
 }
@@ -66,10 +67,10 @@ div#bar ul li {
 
 	border: 10px double powderblue;
 	width: 250px;
-	height: 300px;
-	position: absolute;
-	top: 250px;
-	left: 280px;
+	display: inline-block;	
+	
+		
+	
 
 
 }
@@ -94,12 +95,11 @@ div#left ul li {
 
 	border: 10px double hotpink;
 	background: powderblue;
-	position: absolute;
-	top: -6px;
-	left: 290px;
-	width: 470px;
+	width: 450px;
 	height: 300px;
-	
+	display: inline-block;
+	margin-left: 50px;
+	vertical-align: top;
 
 
 }
@@ -110,13 +110,12 @@ div#left ul li {
     width: 150px;
     height: 160px;
     background: #a7d9e0;
-    position: relative;
-    top: 350px;
-    float: center;
     display: inline-block;
     border-radius: 15px 15px;
     margin: 20px 20px;
 	border: 3px dashed hotpink;
+	margin-top: 30px;
+	margin-bottom: 50px;
 	
 
 }
@@ -125,7 +124,6 @@ div#left ul li {
     width: 30px;
     height: 30px;
 	background: hotpink;
-    position: relative;
     float: right;
     display: inline-block;
     border-radius: 10px 10px;
@@ -151,13 +149,13 @@ div#left ul li {
 #form {
 
 	border: 10px double hotpink;
-	position: absolute;
-	top: 850px;
-	left: 280px;
-	width: 300px;
+	width: 250px;
 	height: 300px;
-	padding-top: 50px;
-	padding-left: 50px;
+	display: inline-block;
+	margin-right: 30px;
+	padding-top: 30px;
+	padding-left: 80px;
+	vertical-align: top;
 }
 
 div#form legend {
@@ -175,24 +173,18 @@ div#form legend {
 #form2 {
 
 	border: 10px double hotpink;
-	position: absolute;
-	top: 0px;
-	left: 400px;
-	width: 320px;
-	height: 450px;
-	padding-top: 20px;
-	padding-left: 50px;
+	display: inline-block;
+	width: 350px;
 }
 
 
 #bottom {
 	border: 10px solid hotpink;
 	background: pink;
-	position: absolute;
-	bottom: -920px;
 	width: 780px;
 	height: 100px;
 	margin-bottom: 50px;
+	margin-top: 30px;
 
 
 
@@ -245,30 +237,16 @@ p {
 		<li> Doughnut </li>
 		<li> Churros </li>
 
+		</ul>
+	</div>
 
 
-	</ul>
 
 	<div id="right">
 	
-	<p> <br>" Dessert without cheese is like a beauty with only one eye" - Jean Anthelme Brillat-Savarin<br><br>
+	" Dessert without cheese is like a beauty with only one eye" - Jean Anthelme Brillat-Savarin<br><br>
 		"Some people prefer eating dessert to the main course. These people have never been really hungry"- Vera Nazarian
 
-
-
-</p>
-
-
-
-
-	</p>
-	
-
-
-	</div>
-
-		
-		
 
 	</div>
 
@@ -323,6 +301,8 @@ p {
   	<input type="submit" value="Submit">
 	</form>
 
+	</div>
+
 	<div id="form2">
 
 	<legend>Order Here !</legend>	
@@ -335,6 +315,7 @@ p {
 	<input type="radio" name="cake" value="cheese"> Cheese 
 	</form>
 	<br>
+
 	<p>Topping:</p><br>
 	<form action="action_page.php">
 	<input type="checkbox" name="topping1" value="Chocolate Ganache">Chocolate Ganache
@@ -347,16 +328,16 @@ p {
 
 	<br>
 
-<p>Pay using :</p><br>
+	<p>Pay using :</p><br>
 	<form action="action_page.php">
-  <select name="payment">
-    <option value="cashondelivery">Cash on Delivery</option>
-    <option value="creditcards">Credit Card</option>
-    <option value="onlinepayment">Online Payment</option>
+  	<select name="payment">
+    	<option value="cashondelivery">Cash on Delivery</option>
+    	<option value="creditcards">Credit Card</option>
+    	<option value="onlinepayment">Online Payment</option>
     
-  </select>
+  	</select>
   <br><br>
-  <input type="submit">
+  	<input type="submit">
 </form>
 
 	</div>
